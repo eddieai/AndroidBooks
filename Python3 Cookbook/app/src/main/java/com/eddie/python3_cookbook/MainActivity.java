@@ -1,4 +1,4 @@
-package com.eddie.python3-cookbook;
+package com.eddie.python3_cookbook;
 
 import android.os.Bundle;
 import android.os.Build;

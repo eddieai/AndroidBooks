@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.eddie.python3-cookbook"
+        applicationId "com.eddie.python3_cookbook"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1

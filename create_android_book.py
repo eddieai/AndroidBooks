@@ -78,6 +78,7 @@ def main() -> None:
     parser.add_argument("icon_path", type=str, help="Path to the icon image file.")
 
     args = parser.parse_args()
+    args.book_name = args.book_name.replace("-", "_")
 
     create_new_android_book(args.book_name, args.url, args.package_name, args.icon_path)
 
